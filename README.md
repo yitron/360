@@ -75,23 +75,21 @@ Logistic Regression is a statistical model that in its basic form uses a logisti
 1. **Clone the Repository**
 
    ```bash
-   git clone <repository-url>
-   cd <repository-folder>
+   git clone https://github.com/yitron/ai360Academy.git
+   ```
+
+   Make your own dir
+
+   ```bash
+   mkdir <your-name-here>
+   ```
 
 2. **Setup the virtual environment**
 
-```bash
-python -m venv venv
-```
+   ```bash
+   cd <your-name-here-dir>
+   ```
 
-```bash
-source venv/bin/activate
-```
-
-3. **Run setup**
-
-```bash
-python setup.py
-```
-
-This should setup the necessary directories and packages used for deep learning
+   ```bash
+   python -m venv venv
+   ```
