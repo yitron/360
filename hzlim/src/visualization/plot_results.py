@@ -1,17 +1,10 @@
 import matplotlib.pyplot as plt
 
-def plot_loss_history(loss_history):
-    plt.figure()
-    plt.plot(range(len(loss_history)), loss_history, label='Training Loss')
-    plt.xlabel('Epoch')
-    plt.ylabel('Loss')
-    plt.title('Training Loss Over Epochs')
-    plt.legend()
-    plt.show()
-
 def plot_accuracy(accuracy):
+    # Assuming you want to plot some form of accuracy progression or just the final accuracy
     plt.figure()
-    plt.bar(['Accuracy'], [accuracy])
-    plt.ylabel('Accuracy')
+    plt.plot([1], [accuracy], marker='o', markersize=8, color='red')  # Example plot
     plt.title('Model Accuracy')
+    plt.xlabel('Epoch')
+    plt.ylabel('Accuracy')
     plt.show()
