@@ -1,95 +1,114 @@
-# ai360 Academy Machine Learning Practice Repo
+# Setup & Running
 
-As we embark on the journey to become craftsmen in Machine Learning, which encapsulates deep learning, this repository serves as a playground for experimenting with various data, models, and deep learning techniques. Our goal is to practice and refine our skills as we learn.
+This project uses [mdBook](https://github.com/rust-lang/mdBook), a tool to create books using Markdown files. Follow this guide to set up the project and run `mdBook` locally.
 
-## Guiding Principles
+---
 
-With the Bible as our guide:
+## Prerequisites
 
-**Ecclesiastes 9:10**  
-*"Whatsoever thy hand findeth to do, do it with thy might; for there is no work, nor device, nor knowledge, nor wisdom, in the grave, whither thou goest."*  
-This verse advises giving full effort to whatever task is at hand. It serves as a reminder that life is finite, and we should make the most of our time and opportunities.
+Before you begin, ensure the following tools are installed:
 
-**2 Timothy 2:15**  
-*"Study to shew thyself approved unto God, a workman that needeth not to be ashamed, rightly dividing the word of truth."*  
-Rightly dividing and manipulating data is paramount to good machine learning practices.
+### Install Rust and Cargo
 
-## Framework
+1. **Install Rust**:  
+   Download and install Rust using the official installation script:
 
-### Data
-- **Extract:** Obtain data from various sources.
-- **Transform:** Clean, preprocess, and prepare the data for analysis.
-- **Load:** Load the data into the model for training and evaluation.
+   ```bash
+   curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
+   ```
 
-### Deep Learning Workflow
+   Follow the on-screen instructions to complete the setup.
 
-1. **Data Preparation**
-   - **Collecting Data:** Gather a large and diverse dataset relevant to the problem.
-   - **Preprocessing:** Clean and preprocess the data. This may involve normalization, standardization, augmentation, and handling missing values.
-   - **Splitting Data:** Divide the data into training, validation, and test sets to ensure robust model evaluation and to prevent overfitting.
+2. **Verify Installation**:  
+   Restart your terminal (or source your shell configuration) and verify Rust and Cargo are installed:
 
-2. **Choosing the Model Architecture**
-   - **Model Type:** Select the appropriate model type based on the problem (e.g., Convolutional Neural Networks for image processing, Recurrent Neural Networks for sequential data).
-   - **Layer Design:** Design the architecture by choosing the number and type of layers (e.g., convolutional layers, fully connected layers, dropout layers).
-   - **Activation Functions:** Choose activation functions (e.g., ReLU, sigmoid, tanh) to introduce non-linearities into the model.
+   ```bash
+   rustc --version
+   cargo --version
+   ```
 
-3. **Setting the Objective Function**
-   - **Loss Function:** Choose a suitable loss function that measures the difference between the predicted and actual outputs (e.g., Mean Squared Error for regression, Cross-Entropy Loss for classification).
-   - **Regularization:** Apply regularization techniques (e.g., L1/L2 regularization, dropout) to prevent overfitting and improve generalization.
+   These commands should display the installed versions of Rust and Cargo.
 
-4. **Optimization Algorithm**
-   - **Optimizer:** Select an optimization algorithm (e.g., Stochastic Gradient Descent, Adam, RMSprop) to minimize the loss function and update model parameters.
-   - **Learning Rate:** Set an appropriate learning rate, which controls how much to adjust the model parameters with respect to the loss gradient.
+### Install `mdBook`
 
-5. **Training the Model**
-   - **Batch Size:** Determine the batch size, which affects the speed and stability of training.
-   - **Epochs:** Choose the number of epochs, or how many times the entire training dataset will be passed through the model.
-   - **Monitoring and Tuning:** Monitor training and validation metrics (e.g., accuracy, loss) to detect overfitting, underfitting, or other training issues.
+Once Rust and Cargo are installed, install `mdBook` by running:
 
-6. **Evaluating the Model**
-   - **Performance Metrics:** Evaluate the model using appropriate performance metrics (e.g., accuracy, precision, recall, F1 score, AUC) on the validation and test sets.
-   - **Cross-Validation:** Optionally, perform cross-validation to ensure the model’s performance is robust across different data splits.
+```bash
+cargo install mdbook
+```
 
-7. **Hyperparameter Tuning**
-   - **Hyperparameter Search:** Experiment with different hyperparameter settings (e.g., learning rates, batch sizes, number of layers) to find the optimal configuration.
-   - **Automated Tuning:** Use automated hyperparameter tuning methods like grid search, random search, or Bayesian optimization.
+---
 
-8. **Model Deployment**
-   - **Exporting the Model:** Save the trained model architecture and weights for deployment.
-   - **Inference:** Deploy the model in a production environment for inference on new data.
-   - **Monitoring:** Continuously monitor the deployed model’s performance and retrain as needed to maintain accuracy over time.
-
-9. **Iterative Refinement**
-   - **Analyze Errors:** Analyze model errors to identify patterns or areas for improvement.
-   - **Data Augmentation and Enrichment:** Augment or enrich the training data based on error analysis to improve model performance.
-   - **Model Updates:** Regularly update and refine the model based on new data, feedback, or changes in the problem domain.
-
-## Models
-
-### Logistic Regression
-
-Logistic Regression is a statistical model that in its basic form uses a logistic function to model a binary dependent variable. It is one of the simplest and most commonly used models for classification tasks. Despite its simplicity, logistic regression is effective and widely used for a variety of applications in fields such as finance, healthcare, marketing, and more. In the real world, it can be used to predict outcomes such as customer churn, credit scoring, and spam detection.
-
-## How to Run
+## Setting Up the Project
 
 1. **Clone the Repository**
 
-   ```bash
-   git clone https://github.com/yitron/ai360Academy.git
-   ```
-
-   Make your own dir
+   Clone this repository to your local machine:
 
    ```bash
-   mkdir <your-name-here>
+   git clone https://github.com/yitron/360.git
+   cd 360
    ```
 
-2. **Setup the virtual environment**
+2. **Run the Setup Script**
+
+   Execute the `setup.sh` script to configure the documentation structure:
 
    ```bash
-   cd <your-name-here-dir>
+   ./setup.sh
    ```
 
-   ```bash
-   python -m venv venv
-   ```
+   This script initializes the necessary files and directories for the project.
+
+3. **Check the Book Files**
+
+   Ensure all required Markdown files are present in the `src` directory. The main entry point for the book is typically the `SUMMARY.md` file, which outlines the structure of the book.
+
+---
+
+## Building the Book
+
+After setting up the project, build the book using the following command:
+
+```bash
+mdbook build
+```
+
+This generates a static version of the book in the `book/` directory.
+
+---
+
+## Serving the Book Locally
+
+To preview the book in your web browser, serve it locally by running:
+
+```bash
+mdbook serve
+```
+
+This starts a local server at `http://localhost:3000`. The server reloads automatically when you make changes to the Markdown files.
+
+---
+
+## Customizing the Book
+
+You can customize the book's configuration by editing the `book.toml` file. For example, to change the book's title, modify the file as follows:
+
+```toml
+[book]
+title = "My Custom Book Title"
+```
+
+---
+
+## Troubleshooting
+
+- If `mdBook` is not found, ensure that Rust and Cargo paths are set correctly in your environment.
+- For issues building or serving the book, refer to the [mdBook documentation](https://rust-lang.github.io/mdBook/).
+
+---
+
+## Additional Resources
+
+- [mdBook Documentation](https://rust-lang.github.io/mdBook/)
+- [Rust Documentation](https://www.rust-lang.org/learn)
