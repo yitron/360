@@ -79,6 +79,14 @@ Here’s the updated table with the addition of the **Valore microphone** and **
 
 ---
 
+# Development Boards
+| Asset ID      | Hardware Type      | Manufacturer   | Model        | RAM  | Storage          | Power Supply              | Status | Notes |
+|---------------|-------------------|----------------|--------------|------|------------------|---------------------------|---------|-------|
+| DEVBOARD-001  | Development Board | Raspberry Pi   | Pi 4B       | 1GB  | 32GB microSD     | USB-C Power Adapter       | Active |       |
+| DEVBOARD-002  | Development Board | Orange Pi      | 5 Plus      | 8GB  | 256GB SSD<br>32GB microSD | 20V/4A GPIO Power Adapter | Active |       |
+
+---
+
 ## Legend for Tagging IDs
 | Tag Prefix | Meaning                          |
 |------------|----------------------------------|
