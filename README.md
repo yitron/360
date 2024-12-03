@@ -2,8 +2,6 @@
 
 **Digital Missions 360** is an innovative organization dedicated to advancing the mission of Christ through the power of digital technology. Our primary focus is on nurturing and supporting individuals—both spiritually and practically—by providing a collaborative environment where faith and technology intersect.
 
----
-
 ## What We Do
 
 ### Feeding the Flock
@@ -11,8 +9,6 @@ We prioritize the spiritual and emotional well-being of our community, including
 
 ### Programming with Purpose
 Our initiatives are designed to reflect Christ's teachings, allowing us to see His presence in our technological endeavors and empowering us to take dominion over our digital tools.
-
----
 
 ## How We Operate
 
@@ -76,8 +72,6 @@ As it is written in **Proverbs 11:30 (KJV)**:
 
 - **Digital Mission for Children (DMC)**  
   Using Minecraft as a platform to engage and support at-risk children in the neighborhood, fostering connection and growth.
-
----
 
 ## Team
 
