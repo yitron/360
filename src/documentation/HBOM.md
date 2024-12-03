@@ -54,8 +54,6 @@
 
 ---
 
-Here’s the updated table with the addition of the **Valore microphone** and **ASUS webcam C3** along with the relevant details:
-
 ## Spare Parts and Accessories
 | Asset ID               | Hardware Type    | Zone/Sub-Zone | Manufacturer  | Model/Part Number        | Quantity | Date of Register | Lifecycle Management | Notes                                                                                                                     |
 |------------------------|------------------|---------------|---------------|--------------------------|----------|------------------|---------------------|---------------------------------------------------------------------------------------------------------------------------|
@@ -105,12 +103,10 @@ Here’s the updated table with the addition of the **Valore microphone** and **
 ---
 
 ## Document Control
-| Version | Date       | Author            | Change Description               |
-|---------|------------|-------------------|----------------------------------|
-| 0.1     | 2024-12-03 | Z       | Initial creation of HBOM         |
-| 0.1     | 2024-12-03 | Z   | Registered Books into HBOM |
-| 0.1     | 2024-12-03 | Z   | Updated to include spare parts section |
-| 0.1     | 2024-12-03 | G   | Updated to include Development Board section |
+| Version | Date       | Author            | Change Description                                                |
+|---------|------------|-------------------|------------------------------------------------------------------|
+| 0.1     | 2024-12-03 | Z & Gordon        | Initialized HBOM and Registered Hardware of Co-Working Space, Library Area, Spare Parts & Accessories, and Development Board section |
+
 ---
 
 ### How to Use:
