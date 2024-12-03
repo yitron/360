@@ -54,6 +54,8 @@
 
 ---
 
+Here’s the updated table with the addition of the **Valore microphone** and **ASUS webcam C3** along with the relevant details:
+
 ## Spare Parts and Accessories
 | Asset ID               | Hardware Type    | Zone/Sub-Zone | Manufacturer  | Model/Part Number        | Quantity | Date of Register | Lifecycle Management | Notes                                                                                                                     |
 |------------------------|------------------|---------------|---------------|--------------------------|----------|------------------|---------------------|---------------------------------------------------------------------------------------------------------------------------|
@@ -71,6 +73,9 @@
 | SPARE-MONITOR002       | Monitor          | Spare Parts   | Phillips      | 22 inch                  | 1        | 2024-12-02       | Active              | Owned by Wayne, Includes stand                                                                                             |
 | SPARE-MONITOR003       | Monitor          | Spare Parts   | Dell          | 22 inch                  | 1        | 2024-12-02       | Active              | Owned by 360, Includes stand                                                                                               |
 | SPARE-MONITOR004       | Monitor          | Spare Parts   | Dell          | 27 inch                  | 1        | 2024-12-02       | Active              | Owned by Z, Includes stand                                                                                                 |
+| SPARE-PROJECTOR001     | Projector        | Spare Parts   | EPSON         | EB-X03                   | 1        | 2024-12-02       | Active              | LAMP ELPL 78, Includes HDMI cable, VGA cables, and a remote control                                                        |
+| SPARE-MICROPHONE001    | Microphone       | Spare Parts   | Valore        | N/A                      | 1        | 2024-12-02       | Active              | No USB-C cable included                                                                                                    |
+| SPARE-WEBCAM001        | Webcam           | Spare Parts   | ASUS          | C3                       | 1        | 2024-12-02       | Active              | N/A                                                                                                                       |
 
 ---
 
