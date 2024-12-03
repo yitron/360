@@ -1,11 +1,12 @@
 # Hardware Bill of Materials (HBOM)
 
 ## Co-Working Space / Command Center
-| Asset ID  | Hardware Type     | Zone/Sub-Zone | Manufacturer | Model/Part Number | CPU         | RAM  | Storage     | Date of Purchase | Warranty Expiry | Status  | Lifecycle Management   | Notes                           |
-|-----------|-------------------|---------------|--------------|-------------------|-------------|------|-------------|------------------|-----------------|---------|------------------------|---------------------------------|
-| CMD-PC001 | Personal Computer | Desk Area     | Dell         | XPS 15 9510       | Core i7     | 16GB | 512GB SSD   | 2024-02-01       | 2026-02-01      | Active  | Active - Replacement scheduled 2026 | Shared for team collaboration   |
-
----
+| Asset ID  | Hardware Type     | Zone/Sub-Zone | Manufacturer | Model           | Part Number | CPU         | RAM  | Storage    | Date Tagged  | Status  | Lifecycle Management   | Notes                           |
+|-----------|-------------------|---------------|--------------|-----------------|-------------|-------------|------|------------|--------------|---------|------------------------|---------------------------------|
+| PC-001    | Personal Computer | Desk Area     | Dell         | Latitude 7490   | 3LV3NQ2    | Intel Core i5-8350U | 8GB  | 256GB SSD  | 2024-12-03  | Active  |                        |                                 |
+| PC-002    | Personal Computer | Desk Area     | Dell         | Latitude 7490   | D45RHR2    | Intel Core i5-8350U | 8GB  | 256GB SSD  | 2024-12-03  | Active  |                        |                                 |
+| PC-003    | Personal Computer | Desk Area     | Lenovo       | ThinkPad T470s  | PC0TB5DK   | Intel Core i7-7600U | 8GB  | 256GB SSD  | 2024-12-03  | Active  |                        |                                 |
+| PC-004    | Personal Computer | Desk Area     | Lenovo       | ThinkPad T460s  | PC0MLKC4   | Intel Core i7-6600U | 8GB  | 256GB SSD  | 2024-12-03  | Active  |                        | Lid sensor broken               |
 
 ## Labs Area
 | Asset ID | Hardware Type     | Zone/Sub-Zone | Manufacturer | Model/Part Number | CPU       | RAM  | Storage     | Date of Purchase | Warranty Expiry | Status   | Lifecycle Management    | Notes                        |
