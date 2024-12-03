@@ -28,16 +28,12 @@ Our initiatives are designed to reflect Christ's teachings, allowing us to see H
 - **Review of the Week**  
   At the end of each week, we showcase our accomplishments through demos, celebrating progress and learning together.
 
----
-
 ## Why We Do It
 
 Our mission is rooted in serving the Lord Jesus Christ. We aim to support individuals facing various challenges, including mental health struggles, temptations, and personal trials. Our doors are open to everyone, providing a safe space for healing and growth. 
 
 As it is written in **Proverbs 11:30 (KJV)**:  
 > "The fruit of the righteous is a tree of life; and he that winneth souls is wise."
-
----
 
 ## Community Support
 
@@ -49,8 +45,6 @@ As it is written in **Proverbs 11:30 (KJV)**:
 
 - **Inclusive Fellowship**  
   A diverse community where individuals from all walks of life can come together in faith and support.
-
----
 
 ## Practical Work
 
