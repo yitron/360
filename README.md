@@ -1,114 +1,95 @@
-# Setup & Running
+# Digital Missions 360
 
-This project uses [mdBook](https://github.com/rust-lang/mdBook), a tool to create books using Markdown files. Follow this guide to set up the project and run `mdBook` locally.
-
----
-
-## Prerequisites
-
-Before you begin, ensure the following tools are installed:
-
-### Install Rust and Cargo
-
-1. **Install Rust**:  
-   Download and install Rust using the official installation script:
-
-   ```bash
-   curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
-   ```
-
-   Follow the on-screen instructions to complete the setup.
-
-2. **Verify Installation**:  
-   Restart your terminal (or source your shell configuration) and verify Rust and Cargo are installed:
-
-   ```bash
-   rustc --version
-   cargo --version
-   ```
-
-   These commands should display the installed versions of Rust and Cargo.
-
-### Install `mdBook`
-
-Once Rust and Cargo are installed, install `mdBook` by running:
-
-```bash
-cargo install mdbook
-```
+**Digital Missions 360** is an innovative organization dedicated to advancing the mission of Christ through the power of digital technology. Our primary focus is on nurturing and supporting individuals—both spiritually and practically—by providing a collaborative environment where faith and technology intersect.
 
 ---
 
-## Setting Up the Project
+## What We Do
 
-1. **Clone the Repository**
+### Feeding the Flock
+We prioritize the spiritual and emotional well-being of our community, including ourselves, by grounding our work in God's word.
 
-   Clone this repository to your local machine:
-
-   ```bash
-   git clone https://github.com/yitron/360.git
-   cd 360
-   ```
-
-2. **Run the Setup Script**
-
-   Execute the `setup.sh` script to configure the documentation structure:
-
-   ```bash
-   ./setup.sh
-   ```
-
-   This script initializes the necessary files and directories for the project.
-
-3. **Check the Book Files**
-
-   Ensure all required Markdown files are present in the `src` directory. The main entry point for the book is typically the `SUMMARY.md` file, which outlines the structure of the book.
+### Programming with Purpose
+Our initiatives are designed to reflect Christ's teachings, allowing us to see His presence in our technological endeavors and empowering us to take dominion over our digital tools.
 
 ---
 
-## Building the Book
+## How We Operate
 
-After setting up the project, build the book using the following command:
+- **Monday Start of Week Brief**  
+  Each week begins with a meeting to consolidate everyone's tasks and goals, ensuring clarity and focus.
 
-```bash
-mdbook build
-```
+- **Daily Lunches**  
+  Continuing a cherished tradition from Dunearn, we gather for daily lunches, fostering community and connection.
 
-This generates a static version of the book in the `book/` directory.
+- **Refactor Fridays**  
+  We dedicate Fridays to refining our projects, ensuring that our work is polished and effective.
 
----
-
-## Serving the Book Locally
-
-To preview the book in your web browser, serve it locally by running:
-
-```bash
-mdbook serve
-```
-
-This starts a local server at `http://localhost:3000`. The server reloads automatically when you make changes to the Markdown files.
+- **Review of the Week**  
+  At the end of each week, we showcase our accomplishments through demos, celebrating progress and learning together.
 
 ---
 
-## Customizing the Book
+## Why We Do It
 
-You can customize the book's configuration by editing the `book.toml` file. For example, to change the book's title, modify the file as follows:
+Our mission is rooted in serving the Lord Jesus Christ. We aim to support individuals facing various challenges, including mental health struggles, temptations, and personal trials. Our doors are open to everyone, providing a safe space for healing and growth. 
 
-```toml
-[book]
-title = "My Custom Book Title"
-```
+As it is written in **Proverbs 11:30 (KJV)**:  
+> "The fruit of the righteous is a tree of life; and he that winneth souls is wise."
 
 ---
 
-## Troubleshooting
+## Community Support
 
-- If `mdBook` is not found, ensure that Rust and Cargo paths are set correctly in your environment.
-- For issues building or serving the book, refer to the [mdBook documentation](https://rust-lang.github.io/mdBook/).
+- **Co-working Space**  
+  A welcoming environment for people to collaborate and produce meaningful work.
+
+- **Technical Resources**  
+  Access to servers and reliable network connections to facilitate productivity.
+
+- **Inclusive Fellowship**  
+  A diverse community where individuals from all walks of life can come together in faith and support.
 
 ---
 
-## Additional Resources
+## Practical Work
 
-- [mdBook Documentation](https://rust-lang.github.io/mdBook/)
-- [Rust Documentation](https://www.rust-lang.org/learn)
+### Completed in 2024
+- **Cybersecurity Initiative**  
+  Collaborated with local authorities to enhance network security through practical training in incident reporting and analysis.
+
+- **Machine Learning Project**  
+  Partnered with Close-Loop Technology on an image detection system for Changi Airport Group, focused on litter detection.
+
+- **Generative AI Training**  
+  Sobi.ai project provided hands-on experience in data engineering and advanced language model applications.
+
+- **AI Model Recreation**  
+  Recreated state-of-the-art language models like GPT-3 and Llama from scratch.
+
+- **IoT Solutions Development**  
+  Developed low-code programming solutions for IoT applications with Close-Loop Technology.
+
+- **Refurbishing Laptops**  
+  Refurbished old laptops for missions work across Southeast Asia and the Middle East.
+
+- **App Development for Missions Education**  
+  Created an application to enhance missions education in Sabah.
+
+### Planned for 2025
+- **Sobi – Security & Orchestration Business Intelligent Coding**  
+  Developing AI operating systems tailored for logistics and conducting cybersecurity red teaming exercises.
+
+- **Digital Mission for Children (DMC)**  
+  Using Minecraft as a platform to engage and support at-risk children in the neighborhood, fostering connection and growth.
+
+---
+
+## Team
+
+- **SC Lim** - Advisor  
+- **Lena** - Coordinator  
+- **Nigel** - Lead  
+- **Junxian** - Co-Lead  
+- **HongZhuang & Gordon** - Support Role
+

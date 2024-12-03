@@ -18,7 +18,7 @@
     - [Executive Oversight and Leadership](practice/leadership-policy.md)
 
 ---
----
+
 # Policies
 
 - [ISMS Manual](policies/ISMS-POL-000/introduction.md)
@@ -59,3 +59,8 @@
         - [Work Instructions](policies/ISMS-APP-001/work_instructions.md)
         - [Control](policies/ISMS-APP-001/document-control.md)
 ---
+
+# Hardware Bill of Material
+
+- [DM@Woodlands]()
+    - [HBOM]()
