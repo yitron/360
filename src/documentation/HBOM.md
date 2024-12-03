@@ -52,11 +52,22 @@
 ---
 
 ## Spare Parts and Accessories
-| Asset ID  | Hardware Type          | Zone/Sub-Zone  | Manufacturer   | Model/Part Number | Quantity | Date of Purchase | Lifecycle Management | Notes                           |
-|-----------|------------------------|----------------|----------------|-------------------|----------|------------------|----------------------|---------------------------------|
-| SPARE-HDMI001 | HDMI Cable          | Spare Parts    | Belkin         | F3Y021bt          | 10       | 2024-11-20       | Active               | For monitor connections        |
-| SPARE-MOUSE001 | Mouse               | Spare Parts    | Logitech       | M330 Silent Plus  | 5        | 2024-11-15       | Active               | Backup for co-working space    |
-| SPARE-KEYBOARD001 | Keyboard          | Spare Parts    | Microsoft      | Sculpt Ergonomic  | 3        | 2024-11-18       | Active               | Backup for co-working space    |
+| Asset ID               | Hardware Type    | Zone/Sub-Zone | Manufacturer  | Model/Part Number        | Quantity | Date of Register | Lifecycle Management | Notes                                                                                                                     |
+|------------------------|------------------|---------------|---------------|--------------------------|----------|------------------|---------------------|---------------------------------------------------------------------------------------------------------------------------|
+| SPARE-KEYBOARD001      | Keyboard         | Spare Parts   | Dell          | N/A                      | 1        | 2024-12-02       | Active              | USB Wired Keyboard                                                                                                         |
+| SPARE-KEYBOARD002      | Keyboard         | Spare Parts   | HP            | N/A                      | 1        | 2024-12-02       | Active              | USB Wired Keyboard                                                                                                         |
+| SPARE-KEYBOARD003      | Keyboard         | Spare Parts   | Razer         | Ornata                   | 1        | 2024-12-02       | Active              | USB Wired Keyboard                                                                                                         |
+| SPARE-MOUSE001         | Mouse            | Spare Parts   | HP            | N/A                      | 1        | 2024-12-02       | Active              | USB Wired Optical Mouse                                                                                                    |
+| SPARE-MOUSE002         | Mouse            | Spare Parts   | Lenovo        | N/A                      | 1        | 2024-12-02       | Active              | USB Wired Optical Mouse                                                                                                    |
+| SPARE-MOUSE003         | Mouse            | Spare Parts   | IBM           | N/A                      | 1        | 2024-12-02       | Active              | USB Wired Optical Mouse                                                                                                    |
+| SPARE-HDD001           | External HDD     | Spare Parts   | Western Digital | My Book Essential       | 1        | 2024-12-02       | Active              | 1TB USB 3.0 External Hard Drive                                                                                             |
+| SPARE-ROUTER001        | Wireless Router  | Spare Parts   | ASUS          | Wireless-N900 Gigabit Router | 1   | 2024-12-02       | Active              | IP: 192.168.1.1 (Private IP Address), Username: admin, Password: admin, PIN Code: 73777281 for access, MAC Address: 10C37BE065C8. |
+| SPARE-ROUTER002        | 4G LTE Router    | Spare Parts   | TP-Link       | N/A                      | 1        | 2024-12-02       | Active              | IP: http://tplinkmodem.net (Domain), PIN Code: 85082779, SSID: TP-Link_FBAC                                                |
+| SPARE-ROUTER003        | 4G Wireless Router| Spare Parts   | Comfast       | N/A                      | 1        | 2024-12-02       | Active              | IP: 192.168.0.1 (Private IP Address), Username: Admin, Password: Admin, MAC Address: 40A5EFA52990                           |
+| SPARE-MONITOR001       | Monitor          | Spare Parts   | Samsung       | 27 inch                  | 1        | 2024-12-02       | Active              | Owned by Wayne, Includes stand                                                                                             |
+| SPARE-MONITOR002       | Monitor          | Spare Parts   | Phillips      | 22 inch                  | 1        | 2024-12-02       | Active              | Owned by Wayne, Includes stand                                                                                             |
+| SPARE-MONITOR003       | Monitor          | Spare Parts   | Dell          | 22 inch                  | 1        | 2024-12-02       | Active              | Owned by 360, Includes stand                                                                                               |
+| SPARE-MONITOR004       | Monitor          | Spare Parts   | Dell          | 27 inch                  | 1        | 2024-12-02       | Active              | Owned by Z, Includes stand                                                                                                 |
 
 ---
 
