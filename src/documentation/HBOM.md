@@ -98,6 +98,7 @@ Here’s the updated table with the addition of the **Valore microphone** and **
 | SRV        | Servers                          |
 | LIB-B      | Book Identifier in Library      |
 | SPARE      | Spare Parts and Accessories     |
+| DEVBOARD   | Development Boards and Single Board Computers |
 
 ---
 
@@ -106,8 +107,8 @@ Here’s the updated table with the addition of the **Valore microphone** and **
 |---------|------------|-------------------|----------------------------------|
 | 0.1     | 2024-12-03 | Z       | Initial creation of HBOM         |
 | 0.1     | 2024-12-03 | Z   | Registered Books into HBOM |
-| 1.2     | 2024-12-07 | [Your Name]       | Updated to include spare parts section |
-
+| 0.1     | 2024-12-03 | Z   | Updated to include spare parts section |
+| 0.1     | 2024-12-03 | G   | Updated to include Development Board section |
 ---
 
 ### How to Use:
@@ -115,5 +116,6 @@ Here’s the updated table with the addition of the **Valore microphone** and **
 - **Lifecycle Management**: Tracks the operational state and future planning of hardware across all areas.
 - **Legend for Tagging IDs**: A consistent system for naming and identifying different hardware types.
 - **Document Control**: Tracks versioning and changes for accountability and clarity.
+
 
 
