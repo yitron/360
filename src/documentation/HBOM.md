@@ -22,9 +22,30 @@
 ---
 
 ## Library Area (Books)
-| Asset ID  | Hardware Type     | Zone/Sub-Zone | Manufacturer | Model/Part Number | Quantity | Date of Purchase | Lifecycle Management | Notes                           |
-|-----------|-------------------|---------------|--------------|-------------------|----------|------------------|----------------------|---------------------------------|
-| LIB-B001  | Book              | Library Shelf | Penguin      | ISBN-12345        | 1        | 2024-01-10       | Active - Replacement scheduled 2025 | Introductory cybersecurity guide |
+
+| Asset ID | Hardware Type | Zone/Sub-Zone | Author | Title | Quantity | Date of Register | Lifecycle Management | Notes |
+|----------|---------------|---------------|---------|--------|----------|------------------|---------------------|--------|
+| LIB-B001 | Book | Library Shelf | MDIS | CIS1018-N | 1 | 2024-12-02 | Active | Systems Design & Databases Course Study Booklet |
+| LIB-B002 | Book | Library Shelf | Martin Hall | Clean Code | 1 | 2024-12-02 | Active | Programming Reference Book |
+| LIB-B003 | Book | Library Shelf | Christian Mayer | The Art of Clean Code | 1 | 2024-12-02 | Active | Programming Guide |
+| LIB-B004 | Book | Library Shelf | McGraw Hill | Calculus | 1 | 2024-12-02 | Active | Mathematics Textbook |
+| LIB-B005 | Book | Library Shelf | Pan Pacific | College Mathematics Vol 1 | 1 | 2024-12-02 | Active | Mathematics Textbook - Syllabus C |
+| LIB-B006 | Book | Library Shelf | Pan Pacific | College Mathematics Vol 2 | 1 | 2024-12-02 | Active | Mathematics Textbook - Syllabus C |
+| LIB-B007 | Book | Library Shelf | OccupytheWeb | Linux Basics for Hackers | 1 | 2024-12-02 | Active | Technical Guide |
+| LIB-B008 | Book | Library Shelf | Al Sweigart | Automate The Boring with Python | 1 | 2024-12-02 | Active | Programming Guide |
+| LIB-B009 | Book | Library Shelf | Eric Matthes | Python Crash Course | 1 | 2024-12-02 | Active | Programming Guide |
+| LIB-B010 | Book | Library Shelf | Monk | Programming the Raspberry Pi | 1 | 2024-12-02 | Active | Technical Guide |
+| LIB-B011 | Book | Library Shelf | Peztzold | Code | 1 | 2024-12-02 | Active | Technical Book |
+| LIB-B012 | Book | Library Shelf | FDE | Faith Driven Life | 1 | 2024-12-02 | Active | Religious/Motivational Book |
+| LIB-B013 | Book | Library Shelf | Charles Spurgeon | Power Prayer | 1 | 2024-12-02 | Active | Religious Book |
+| LIB-B014 | Book | Library Shelf | J.C Ryle | Holiness | 1 | 2024-12-02 | Active | Religious Book |
+| LIB-B015 | Book | Library Shelf | PINK | The Attributes of God | 1 | 2024-12-02 | Active | Religious Book |
+| LIB-B016 | Book | Library Shelf | Timothy Tow | Lessons from the University of Life | 1 | 2024-12-02 | Active | Religious/Educational Book |
+| LIB-B017 | Book | Library Shelf | Lockyer | All the Prayers of the Bible | 1 | 2024-12-02 | Active | Religious Book |
+| LIB-B018 | Book | Library Shelf | Ryken | Redeeming the Time | 1 | 2024-12-02 | Active | Religious Book |
+| LIB-B019 | Book | Library Shelf | John C. Lennox | A Good Return | 1 | 2024-12-02 | Active | Religious Book |
+| LIB-B020 | Book | Library Shelf | Lockyer | All the Teachings of Jesus | 1 | 2024-12-02 | Active | Religious Book |
+| LIB-B021 | Book | Library Shelf | Vishal Mangalwadi | The Book that Made your World | 1 | 2024-12-02 | Active | Religious/Historical Book |
 
 ---
 
@@ -54,8 +75,8 @@
 ## Document Control
 | Version | Date       | Author            | Change Description               |
 |---------|------------|-------------------|----------------------------------|
-| 1.0     | 2024-12-03 | [Your Name]       | Initial creation of HBOM         |
-| 1.1     | 2024-12-05 | [Teammate Name]   | Added lifecycle management & tags|
+| 0.1     | 2024-12-03 | Z       | Initial creation of HBOM         |
+| 0.1     | 2024-12-03 | Z   | Registered Books into HBOM |
 | 1.2     | 2024-12-07 | [Your Name]       | Updated to include spare parts section |
 
 ---
