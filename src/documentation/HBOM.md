@@ -13,9 +13,12 @@
 | PC-008    | Personal Computer | Desk Area     | Lenovo       | ThinkPad T470s  | PC0SZCB5   | Intel Core i5-6300U | 8GB  | 256GB SSD  | 2024-12-03  | Active  |                        | Keyboard defective, "A" key pressed down |
 
 ## Labs Area
-| Asset ID | Hardware Type     | Zone/Sub-Zone | Manufacturer | Model/Part Number | CPU       | RAM  | Storage     | Date of Purchase | Warranty Expiry | Status   | Lifecycle Management    | Notes                        |
-|----------|-------------------|---------------|--------------|-------------------|-----------|------|-------------|------------------|-----------------|----------|-------------------------|------------------------------|
-| LAB-SRV001 | Server           | Server Rack   | Dell         | PowerEdge R740    | Xeon Gold | 256GB| 4TB NVMe SSD| 2023-06-15       | 2026-06-15      | Active   | Active - Replacement scheduled 2028 | Running virtual machines |
+| Asset ID   | Hardware Type     | Zone/Sub-Zone | Manufacturer  | Model/Part Number         | CPU                              | RAM         | GPU                                    | Storage                                   | Date of Purchase | Warranty Expiry | Status    | Lifecycle Management    | Notes                     |
+|------------|-------------------|---------------|---------------|---------------------------|----------------------------------|-------------|----------------------------------------|------------------------------------------|-------------------|-----------------|-----------|-------------------------|--------------------------|
+| LAB-SRV001 | Server            | Server Rack   | Custom-built  | NIL / AI360                       | Intel Core i7-10700              | 48GB DDR4   | Nvidia Geforce RTX 3060 LHR, Nvidia Geforce RTX 3060 | 500GB SSD, 1TB HDD                       |                   | NIL             | Active    | Active                 | AI Training Server       |
+| LAB-SRV002 | Server            | Server Rack   | Fujitsu       | PRIMERGY RX2540 M2 GS01 / Catrat360   | Intel Xeon E5-2609 v4 x2 (dual socket) | 32GB DDR4   | Matrox MGA G200e ServerEngines | 480GB SSD, 5.5TB HDD x4, 1.8TB HDD       | NIL               | NIL             | Active    | Active                 | Cloud Storage Server     |
+| LAB-SRV003 | Server            | Server Rack   | Custom-built  | NIL / Cloud360                 | Intel Core i5-12400F             | 8GB DDR4    | AMD Radeon RX580                      | TBD                                      | TBD               | NIL             | Inactive | In Repair - GPU defective | Proxmox Server         |
+
 
 ---
 
