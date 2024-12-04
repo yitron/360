@@ -1,16 +1,18 @@
 # Hardware Bill of Materials (HBOM)
 
 # Co-Working Space / Command Center
-| Asset ID  | Hardware Type     | Zone/Sub-Zone | Manufacturer | Model           | Part Number | CPU         | RAM  | Storage    | Date Tagged  | Status  | Lifecycle Management   | Notes                           |
-|-----------|-------------------|---------------|--------------|-----------------|-------------|-------------|------|------------|--------------|---------|------------------------|---------------------------------|
-| PC-001    | Personal Computer | Desk Area     | Dell         | Latitude 7490   | 3LV3NQ2    | Intel Core i5-8350U | 8GB  | 256GB SSD  | 2024-12-03  | Active  |                        |                                 |
-| PC-002    | Personal Computer | Desk Area     | Dell         | Latitude 7490   | D45RHR2    | Intel Core i5-8350U | 8GB  | 256GB SSD  | 2024-12-03  | Active  |                        |                                 |
-| PC-003    | Personal Computer | Desk Area     | Lenovo       | ThinkPad T470s  | PC0TB5DK   | Intel Core i7-7600U | 8GB  | 256GB SSD  | 2024-12-03  | Active  |                        |                                 |
-| PC-004    | Personal Computer | Desk Area     | Lenovo       | ThinkPad T460s  | PC0MLKC4   | Intel Core i7-6600U | 8GB  | 256GB SSD  | 2024-12-03  | Active  |                        | Lid sensor broken               |
-| PC-005    | Personal Computer | Desk Area     | Lenovo       | Y50-70         |   CB35078255   | Intel Core i7-4720HQ | 8GB  | 1TB SSHD   | 2024-12-03  | Active  |                        |                                 |
-| PC-006    | Personal Computer | Desk Area     | HP           | ProBook 640 G3  | 2TK72900NP | Intel Core i5-7200U | 8GB  | 256GB SSD  | 2024-12-03  | Active  |                        | RTC Battery dead, battery dead  |
-| PC-007    | Personal Computer | Desk Area     | HP           | ProBook 840 G4  | 5CG8034GPL | Intel Core i5-7200U | 8GB  | 256GB SSD  | 2024-12-03  | Active  |                        | S key defective on keyboard     |
-| PC-008    | Personal Computer | Desk Area     | Lenovo       | ThinkPad T470s  | PC0SZCB5   | Intel Core i5-6300U | 8GB  | 256GB SSD  | 2024-12-03  | Active  |                        | Keyboard defective, "A" key pressed down |
+| Asset ID  | Hardware Type     | Zone/Sub-Zone | Manufacturer | Model           | Part Number | CPU                  | RAM         | Storage    | Date Tagged  | Status     | Lifecycle Management   | Notes                                    |
+|-----------|-------------------|---------------|--------------|-----------------|-------------|----------------------|-------------|------------|--------------|------------|------------------------|------------------------------------------|
+| PC-001    | Personal Computer | Desk Area     | Dell         | Latitude 7490   | 3LV3NQ2     | Intel Core i5-8350U  | 8GB         | 256GB SSD  | 2024-12-03   | Active     |                        |                                          |
+| PC-002    | Personal Computer | Desk Area     | Dell         | Latitude 7490   | D45RHR2     | Intel Core i5-8350U  | 8GB         | 256GB SSD  | 2024-12-03   | Active     |                        |                                          |
+| PC-003    | Personal Computer | Desk Area     | Lenovo       | ThinkPad T470s  | PC0TB5DK    | Intel Core i7-7600U  | 8GB         | 256GB SSD  | 2024-12-03   | Active     |                        |                                          |
+| PC-004    | Personal Computer | Desk Area     | Lenovo       | ThinkPad T460s  | PC0MLKC4    | Intel Core i7-6600U  | 8GB         | 256GB SSD  | 2024-12-03   | Active     |                        | Lid sensor broken                       |
+| PC-005    | Personal Computer | Desk Area     | Lenovo       | Y50-70          | CB35078255  | Intel Core i7-4720HQ | 8GB         | 1TB SSHD   | 2024-12-03   | Active     |                        |                                          |
+| PC-006    | Personal Computer | Desk Area     | HP           | ProBook 640 G3  | 2TK72900NP  | Intel Core i5-7200U  | 8GB         | 256GB SSD  | 2024-12-03   | Active     |                        | RTC Battery dead, battery dead          |
+| PC-007    | Personal Computer | Desk Area     | HP           | ProBook 840 G4  | 5CG8034GPL  | Intel Core i5-7200U  | 8GB         | 256GB SSD  | 2024-12-03   | Active     |                        | S key defective on keyboard             |
+| PC-008    | Personal Computer | Desk Area     | Lenovo       | ThinkPad T470s  | PC0SZCB5    | Intel Core i5-6300U  | 8GB         | 256GB SSD  | 2024-12-03   | Active     |                        | Keyboard defective, "A" key pressed down |
+| PC-009    | Personal Computer | Desk Area     | ASUS ROG     | GL-12           | NIL         | Intel Core i7-8700   | 32GB DDR4   | 1TB SSD    | 2024-12-04   | In Repair  | NIL                    | CPU fan broken, to replace and reshell motherboard |
+
 
 ## Labs Area
 | Asset ID   | Hardware Type     | Zone/Sub-Zone | Manufacturer  | Model/Part Number         | CPU                              | RAM         | GPU                                    | Storage                                   | Date of Purchase | Warranty Expiry | Status    | Lifecycle Management    | Notes                     |
