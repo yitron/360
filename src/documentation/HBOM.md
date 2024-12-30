@@ -56,6 +56,8 @@
 | LIB-B019 | Book | Library Shelf | John C. Lennox | A Good Return | 1 | 2024-12-02 | Active | Religious Book |
 | LIB-B020 | Book | Library Shelf | Lockyer | All the Teachings of Jesus | 1 | 2024-12-02 | Active | Religious Book |
 | LIB-B021 | Book | Library Shelf | Vishal Mangalwadi | The Book that Made your World | 1 | 2024-12-02 | Active | Religious/Historical Book |
+| LIB-B022 | Book | Library Shelf | Lee Strobel | The Case for Faith | 1 | 2024-12-30 | Active | The Case for Faith is for those who maybe feeling attracted to Jesus but suffers from the intellectual barriers that confuses their minds. This book helps provide the basic understanding through a series of interviews |
+| LIB-B023 | Book | Library Shelf | William Shotts | The Linux Command Line - A Complete Introduction | 1 | 2024-12-30 | Active | For those wanting to deepen their understanding and practice to be closer to the machines they operate. |
 
 ---
 
